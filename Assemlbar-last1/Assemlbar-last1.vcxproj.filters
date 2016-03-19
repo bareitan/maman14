@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{e66c7b6b-8fb4-4616-a89d-833dec6663b9}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{6eb435d2-66ff-447b-af65-749cfe7ca973}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource files">
+      <UniqueIdentifier>{87a36358-1c32-4b6f-a861-fc08396c3240}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Make files">
+      <UniqueIdentifier>{c21f308a-f46a-4606-a1a9-4a775837bab2}</UniqueIdentifier>
+      <Extensions>*.mak</Extensions>
+    </Filter>
+    <Filter Include="VisualGDB settings">
+      <UniqueIdentifier>{d377d2b8-0aa0-4ccc-a227-33dfcf912e0f}</UniqueIdentifier>
+      <Extensions>*.vgdbsettings</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="phase_two.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="toolkit.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="phase_one.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Makefile" />
+    <None Include="debug.mak">
+      <Filter>Make files</Filter>
+    </None>
+    <None Include="Assemlbar-last1-Debug.vgdbsettings">
+      <Filter>VisualGDB settings</Filter>
+    </None>
+    <None Include="release.mak">
+      <Filter>Make files</Filter>
+    </None>
+    <None Include="Assemlbar-last1-Release.vgdbsettings">
+      <Filter>VisualGDB settings</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="phase_one.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="phase_two.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="pragma_structure.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="structs_config.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="toolkit.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
